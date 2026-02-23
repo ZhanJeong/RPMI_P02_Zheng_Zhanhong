@@ -44,14 +44,15 @@ public class AdventureroConctroller : MonoBehaviour
 
         }
     }
-    
-    private void OnAnimatorIK(int layerIndex)
+
+    private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawSphere(spawnPoint.position, 0.2f);
         Gizmos.color = Color.blue;
-        Gizmos.DrawLine(spawnPoint.position, distance * transform.forward);
+        Gizmos.DrawRay (spawnPoint.position, distance * transform.forward);
     }
+   
     private void InstantiateArrow() 
     {
         Instantiate(arrow, spawnPoint.position, spawnPoint.rotation);
