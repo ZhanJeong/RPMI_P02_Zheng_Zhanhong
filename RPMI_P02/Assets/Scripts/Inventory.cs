@@ -7,7 +7,9 @@ public class Inventory : MonoBehaviour
     public TextMeshProUGUI coinsText;
 
     //private void Update()
-    //
+    //{
+    //   coinText.text = coins.ToString
+    //}
 
     private void Update()
     {
@@ -21,6 +23,7 @@ public class Inventory : MonoBehaviour
         coins = coinsToAdd;
 
         coinsText.text = coins.ToString();
+        coinsText.fontSize = 18;
     }
 
 

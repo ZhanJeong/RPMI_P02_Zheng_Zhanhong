@@ -37,13 +37,14 @@ public class EmenyConctroller : MonoBehaviour
             if (movement == true)
             {
                 RaycastHit hitInfo;
-                if (Physics.Raycast(transform.position, transform.forward, out hitInfo,0.5f, LayerMask.GetMask("Heroes")))
+                if (Physics.Raycast(transform.position, transform.forward, out hitInfo, 0.5f, LayerMask.GetMask("Heroes")))
                 {
                     if (hitInfo.collider != null)
                     {
                         adventurerToAttack = hitInfo.collider.GetComponent<AdventureroConctroller>();
                     }
                     movement = false;
+                    animator.SetBool("attacking", true);
                 }
                 //Movimiento del enemigo en el sentido positivo de su eje Z
                 transform.Translate(0, 0, speed * Time.deltaTime);
@@ -51,7 +52,7 @@ public class EmenyConctroller : MonoBehaviour
         }
     }
 
-    // Función que se ejecuta cuando el objeto choca con otro
+    // La función 
     private void OnCollisionEnter(Collision collision)
     {
         print("CHOQUE");

@@ -3,7 +3,6 @@ using UnityEngine;
 public class AdventureroConctroller : MonoBehaviour
 {
     public GameObject arrow;
-
     public Transform spawnPoint;
 
     private float distance;
@@ -21,30 +20,29 @@ public class AdventureroConctroller : MonoBehaviour
 
     private void Update()
     {
+
         bool enemyInFront = Physics.Raycast(spawnPoint.position, transform.forward, float.MaxValue, LayerMask.GetMask("Enemies"));
 
         if (shooting)  // if (shooting == true)
         {
-            if (!enemyInFront)
+            if (!enemyInFront) // if (enemyInfront == true)
             {
                 shooting = false;
-                CancelInvoke("InstantiateArrow");              
+                CancelInvoke("InstantiateArrow");
                 //CanceIvoke();
             }
         }
 
-        if (!shooting) // if (shooting == false)
+        if (!shooting) //if (shooting == false)
         {
-            if (enemyInFront) // if (enemyFront == true)
-            {
-            shooting = true;
-            CancelInvoke("InstantiateArrow");
-            //CancelInvoke();
-            }
-
+           if (enemyInFront) // if (enemyFront == true)
+           {
+                    shooting = true;
+                InvokeRepeating("InstantiateArrow", 1f, 1f);
+           }
         }
     }
-
+    
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
