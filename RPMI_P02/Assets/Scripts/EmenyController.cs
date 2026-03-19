@@ -25,7 +25,7 @@ public class EmenyConctroller : MonoBehaviour
 
     private void Start()
     {
-        movement = false;
+        movement = true;
     }
 
     // La función de Update se llama una vez for frame

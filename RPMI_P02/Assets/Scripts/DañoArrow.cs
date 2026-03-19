@@ -7,7 +7,7 @@ public class CollectableController: MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         print("CHOQUE");
-        if (collision.gameObject.CompareTag("Player")) 
+        if (collision.gameObject.CompareTag("Enemy")) 
         {
             Destroy(gameObject);
             //Destroy(collision.gameObject);
