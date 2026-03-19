@@ -38,6 +38,7 @@ public class AdventureroConctroller : MonoBehaviour
            if (enemyInFront) // if (enemyFront == true)
            {
                     shooting = true;
+                print("dispalo");
                 InvokeRepeating("InstantiateArrow", 1f, 1f);
            }
         }

@@ -6,7 +6,7 @@ using UnityEngine.InputSystem.Processors;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngineInternal;
 
-public class EmenyConctroller : MonoBehaviour
+public class BossController: MonoBehaviour
 {//Incio de la clase EmenyController
     
     //Velocidad de movimiento del enemigo
@@ -59,7 +59,7 @@ public class EmenyConctroller : MonoBehaviour
         if (collision.gameObject.CompareTag("DañoArrow"))
         {
 
-            health = health - 25;
+            health = health - 20;
             if (health <= 0)
             {
                 animator.SetBool("Dead", true);

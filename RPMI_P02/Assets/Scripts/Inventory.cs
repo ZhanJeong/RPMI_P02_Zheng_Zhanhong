@@ -1,10 +1,19 @@
 using TMPro;
 using UnityEngine;
 
+public enum AdventurerType
+{
+    Barbarian, Druid, Engineer
+}
+
 public class Inventory : MonoBehaviour
 {
-    private int coins;
+    public int coins;
     public TextMeshProUGUI coinsText;
+
+    public int enemies;
+
+    public AdventurerType adventureToSpawn;
 
     //private void Update()
     //{
