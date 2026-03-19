@@ -7,7 +7,7 @@ public class ReadKey : MonoBehaviour
     {
         if(PlayerPrefs.GetInt("tecla h",-1) == 5)
         {
-            print("el jugador pulsó h");
+            print("el jugador puls?h");
         }
     }
 
