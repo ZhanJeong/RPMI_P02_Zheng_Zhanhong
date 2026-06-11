@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Ikgujio_s_w2-KwJbcbu">
+    <mxGraphModel dx="970" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RAytYai4UhtfeiqP9ght-14" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RAytYai4UhtfeiqP9ght-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;S&lt;/font&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="350" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-16" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RAytYai4UhtfeiqP9ght-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;DineroIntroducido&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="315" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-17" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RAytYai4UhtfeiqP9ght-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;font size=&quot;3&quot;&gt;ProductoElegido&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="330" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-27" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="RAytYai4UhtfeiqP9ght-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Si precio más que zero ?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="150" width="140" x="590" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-19" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RAytYai4UhtfeiqP9ght-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ObtenerPrecio(producto)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="295" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-60" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.333;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="RAytYai4UhtfeiqP9ght-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="550" />
+            </Array>
+            <mxPoint x="446.81" y="550.02" as="sourcePoint" />
+            <mxPoint x="509.99000000000007" y="590.0999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;h2&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Si el saldo es más o igual que el precio?&lt;/font&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="190" width="170" x="320" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;SI&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;SI&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;NO&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="710" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-65" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;h2&gt;Producto no válido&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-58" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="695" />
+              <mxPoint x="30" y="695" />
+              <mxPoint x="30" y="50" />
+              <mxPoint x="90" y="50" />
+            </Array>
+            <mxPoint x="90" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Saldo insuficiente. Faltan (X-Y) oros" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;NO&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-49" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.425;entryY=-0.061;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="241" y="616.3399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-53" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-52" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;El jugador puede conseguir el producto&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="155" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-55" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RAytYai4UhtfeiqP9ght-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="El jugador consigue el producto y felíz" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;h2&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;El jugador pierde el producto y buena humor&lt;/font&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="RAytYai4UhtfeiqP9ght-67" edge="1" parent="1" source="RAytYai4UhtfeiqP9ght-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.552;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="RAytYai4UhtfeiqP9ght-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
