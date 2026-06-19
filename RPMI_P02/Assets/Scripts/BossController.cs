@@ -63,9 +63,10 @@ public class BossController: MonoBehaviour
             if (health <= 0)
             {
                 animator.SetBool("Dead", true);
-
+                isDead = true;
+                speed = 0;
             }
-
+           
         }
         // La función de Update se llama un vez por frame 
 
